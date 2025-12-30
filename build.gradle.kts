@@ -23,7 +23,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("mx.gob.isesalud.sistemapoliza")
-    mainClass.set("mx.gob.isesalud.sistemapoliza.ui.HelloApplication")
+    mainClass.set("mx.gob.isesalud.sistemapoliza.ui.AppMain")
 }
 kotlin {
     jvmToolchain(21)
